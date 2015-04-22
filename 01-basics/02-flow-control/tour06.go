@@ -9,7 +9,7 @@ func pow(x, n, lim float64) float64 {
 
 	// We are assigning v then doing hte boolean, like a for
 	if v := math.Pow(x, n); v < lim {
-		// v is only in scoper here
+		// v is only in scope here
 		return v
 	}
 
